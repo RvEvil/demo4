@@ -1,0 +1,16 @@
+1. npm install prisma --save-dev nodemon
+
+// to initialize a prisma
+2. npx prisma init --datasource-provider postgresql 
+
+// to migrate the changes in .prisma file
+3. npx prisma migrate dev --name init 
+
+// to download prisma client
+4. npm i @prisma/client 
+
+// to generate a prisma client
+5. npx prisma generate 
+
+// after modifying migrate
+6. npx prisma migrate dev
